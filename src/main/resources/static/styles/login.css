@@ -1,0 +1,11 @@
+.container.d-flex {
+	height: 100vh;
+}
+
+.login-modal {
+	width: 350px;
+}
+
+.error {
+	background-color:#dc353540;
+}

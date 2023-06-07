@@ -1,0 +1,113 @@
+/* ========================= PC ======================== */
+@media ( min-width : 1024px) {
+	.page-res {
+		display: none;
+	}
+	.nav-ul {
+		display: flex;
+	}
+	
+	.button-full {
+		display: flex;
+	}
+	
+	.button-sys {
+		display: none !important;
+	}
+	
+	.user-show {
+		display: none;
+	}
+
+}
+
+/* ========================= Tablet ======================== */
+@media ( min-width : 740px) and (max-width: 1023px) {
+	.container, .container-md, .container-sm {
+		max-width: 100%;
+	}
+	/* tr td:nth-child(3), th:nth-child(3) {
+		display: none;
+	}
+	tr td:nth-child(4), th:nth-child(4) {
+		display: none;
+	}
+	tr td:nth-child(6), th:nth-child(6) {
+		display: none;
+	} */
+	.page-res {
+		display: none;
+	}
+	.nav-ul {
+		/* display: flex !important; */
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	.nav-item + .nav-item {
+		margin-left: 10px !important;
+	}
+	
+	.button-full {
+		display: none !important;
+	}
+	
+	.user-show {
+		display: none;
+	}
+	
+	
+	/* .button-sys {
+		display: none !important;
+	} */
+}
+
+/* ========================= Mobile ======================== */
+@media ( max-width : 739px) {
+	.container, .container-md, .container-sm {
+		max-width: 100%;
+	}
+	
+	tr td:nth-child(1), th:nth-child(1) {
+		display: none;
+	}
+	/* tr td:nth-child(3), th:nth-child(3) {
+		display: none;
+	} */
+	tr td:nth-child(4), th:nth-child(4) {
+		display: none;
+	}
+	tr td:nth-child(6), th:nth-child(6) {
+		display: none;
+	}
+	.page-res {
+		display: block;
+	}
+	.nav-ul {
+		display: none;
+	}
+	
+	.button-full {
+		display: none !important;
+	}
+	
+	.button-sys {
+		margin-top: 10px;
+	}
+	
+	header {
+		margin-bottom: 70px
+	}
+	
+	.user-show {
+		display: block;
+	}
+	
+	.user-drop {
+		display: none;
+	}
+	
+	.edit-btn + .delete-btn {
+		margin-left: 10px;
+	}
+}
